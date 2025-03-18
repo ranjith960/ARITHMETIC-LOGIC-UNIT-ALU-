@@ -34,3 +34,12 @@ An ALU typically consists of:
 
 ### **Conclusion**  
 In VLSI, ALU design balances speed, power, and area constraints. Modern ALUs leverage advanced architectures and low-power techniques to enhance efficiency in microprocessors and digital signal processors (DSPs).
+OUTPUT
+output
+Time = 10 | A = 0011, B = 0001, ALUOp = 000, Result = 0100, Zero = 0
+Time = 20 | A = 0101, B = 0001, ALUOp = 001, Result = 0100, Zero = 0
+Time = 30 | A = 1100, B = 1010, ALUOp = 010, Result = 1000, Zero = 0
+Time = 40 | A = 1100, B = 1010, ALUOp = 011, Result = 1110, Zero = 0
+Time = 50 | A = 1010, B = xxxx, ALUOp = 100, Result = 0101, Zero = 0
+Time = 60 | A = 0000, B = 0000, ALUOp = 000, Result = 0000, Zero = 1
+
